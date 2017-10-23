@@ -1,0 +1,306 @@
+[1] "/home/carya/test2/pecan/pecan.CHECKED.xml"
+Each meta-analysis will be run with: 
+3000 total iterations,
+4 chains, 
+a burnin of 1500 samples,
+, 
+thus the total number of samples will be 6000
+################################################
+------------------------------------------------
+starting meta-analysis for:
+
+ quantum_efficiency 
+
+------------------------------------------------
+prior for quantum_efficiency
+                     (using R parameterization):
+gamma(90.9, 1580)
+data max: 0.07 
+data min: 0.05 
+mean: 0.0625 
+n: 4
+stem plot of data points
+
+  The decimal point is 2 digit(s) to the left of the |
+
+  5 | 0
+  5 | 
+  6 | 0
+  6 | 
+  7 | 00
+
+stem plot of obs.prec:
+
+  The decimal point is 8 digit(s) to the right of the |
+
+  0 | 111
+  2 | 
+  4 | 
+  6 | 7
+
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 8
+   Unobserved stochastic nodes: 2
+   Total graph size: 34
+
+Initializing model
+
+
+Iterations = 1002:4000
+Thinning interval = 2 
+Number of chains = 4 
+Sample size per chain = 1500 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+          Mean       SD  Naive SE Time-series SE
+beta.o 0.06148 0.002793 3.606e-05      3.782e-05
+sd.y   0.01207 0.001606 2.073e-05      2.398e-05
+
+2. Quantiles for each variable:
+
+           2.5%     25%     50%     75%   97.5%
+beta.o 0.055908 0.05969 0.06146 0.06328 0.06705
+sd.y   0.009205 0.01094 0.01196 0.01313 0.01539
+
+################################################
+------------------------------------------------
+starting meta-analysis for:
+
+ leaf_respiration_rate_m2 
+
+------------------------------------------------
+prior for leaf_respiration_rate_m2
+                     (using R parameterization):
+lnorm(0.632, 0.65)
+data max: 2.68954839593453 
+data min: 1.75855087426488 
+mean: 2.17 
+n: 4
+stem plot of data points
+
+  The decimal point is 1 digit(s) to the left of the |
+
+  16 | 66
+  18 | 
+  20 | 
+  22 | 
+  24 | 8
+  26 | 9
+
+stem plot of obs.prec:
+
+  The decimal point is 1 digit(s) to the left of the |
+
+  0 | 128
+  2 | 
+  4 | 
+  6 | 
+  8 | 7
+
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 8
+   Unobserved stochastic nodes: 2
+   Total graph size: 34
+
+Initializing model
+
+
+Iterations = 1002:4000
+Thinning interval = 2 
+Number of chains = 4 
+Sample size per chain = 1500 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+        Mean     SD Naive SE Time-series SE
+beta.o 2.088 0.3796 0.004901       0.005280
+sd.y   1.530 0.2768 0.003574       0.004477
+
+2. Quantiles for each variable:
+
+        2.5%   25%   50%   75% 97.5%
+beta.o 1.343 1.838 2.093 2.342 2.843
+sd.y   1.029 1.337 1.521 1.710 2.099
+
+################################################
+------------------------------------------------
+starting meta-analysis for:
+
+ stomatal_slope.BB 
+
+------------------------------------------------
+prior for stomatal_slope.BB
+                     (using R parameterization):
+lnorm(1.24, 0.28)
+data max: 3 
+data min: 3 
+mean: 3 
+n: 1
+stem plot of data points
+stem plot of obs.prec:
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 2
+   Unobserved stochastic nodes: 2
+   Total graph size: 19
+
+Initializing model
+
+
+Iterations = 1002:4000
+Thinning interval = 2 
+Number of chains = 4 
+Sample size per chain = 1500 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+         Mean      SD  Naive SE Time-series SE
+beta.o 3.0035 0.08611 0.0011117      0.0012474
+sd.y   0.1652 0.05010 0.0006468      0.0008791
+
+2. Quantiles for each variable:
+
+          2.5%    25%    50%    75%  97.5%
+beta.o 2.83024 2.9516 3.0035 3.0546 3.1801
+sd.y   0.08047 0.1279 0.1604 0.1974 0.2742
+
+################################################
+------------------------------------------------
+starting meta-analysis for:
+
+ SLA 
+
+------------------------------------------------
+prior for SLA
+                     (using R parameterization):
+weibull(2.06, 19)
+data max: 21.24 
+data min: 10.1 
+mean: 15.4 
+n: 29
+stem plot of data points
+
+  The decimal point is at the |
+
+  10 | 1368
+  12 | 1996
+  14 | 046001234446
+  16 | 570
+  18 | 245
+  20 | 152
+
+stem plot of obs.prec:
+
+  The decimal point is 2 digit(s) to the right of the |
+
+  0 | 0000000000
+  1 | 
+  2 | 
+  3 | 0
+
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 40
+   Unobserved stochastic nodes: 20
+   Total graph size: 162
+
+Initializing model
+
+
+Iterations = 1002:4000
+Thinning interval = 2 
+Number of chains = 4 
+Sample size per chain = 1500 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+         Mean      SD  Naive SE Time-series SE
+beta.o 15.243 0.19450 0.0025110      0.0026731
+sd.y    1.717 0.06124 0.0007905      0.0008336
+
+2. Quantiles for each variable:
+
+         2.5%    25%    50%    75%  97.5%
+beta.o 14.860 15.111 15.242 15.372 15.626
+sd.y    1.599  1.675  1.716  1.758  1.841
+
+################################################
+------------------------------------------------
+starting meta-analysis for:
+
+ Vcmax 
+
+------------------------------------------------
+prior for Vcmax
+                     (using R parameterization):
+lnorm(3.75, 0.3)
+data max: 40.35 
+data min: 21.93 
+mean: 29 
+n: 10
+stem plot of data points
+
+  The decimal point is 1 digit(s) to the right of the |
+
+  2 | 223
+  2 | 88
+  3 | 0123
+  3 | 
+  4 | 0
+
+stem plot of obs.prec:
+
+  The decimal point is 4 digit(s) to the left of the |
+
+  0 | 000012223
+  0 | 
+  1 | 
+  1 | 7
+
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 20
+   Unobserved stochastic nodes: 2
+   Total graph size: 64
+
+Initializing model
+
+
+Iterations = 1002:4000
+Thinning interval = 2 
+Number of chains = 4 
+Sample size per chain = 1500 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+        Mean    SD Naive SE Time-series SE
+beta.o 29.56 2.238  0.02889        0.03044
+sd.y   14.90 1.652  0.02132        0.02442
+
+2. Quantiles for each variable:
+
+        2.5%   25%   50%   75% 97.5%
+beta.o 25.22 28.04 29.58 31.02 34.07
+sd.y   11.90 13.72 14.86 15.99 18.27
+
+  |                                                                              |                                                                      |   0%  |                                                                              |==                                                                    |   3%  |                                                                              |====                                                                  |   6%  |                                                                              |=======                                                               |   9%  |                                                                              |=========                                                             |  12%  |                                                                              |===========                                                           |  16%  |                                                                              |=============                                                         |  19%  |                                                                              |===============                                                       |  22%  |                                                                              |==================                                                    |  25%  |                                                                              |====================                                                  |  28%  |                                                                              |======================                                                |  31%  |                                                                              |========================                                              |  34%  |                                                                              |==========================                                            |  38%  |                                                                              |============================                                          |  41%  |                                                                              |===============================                                       |  44%  |                                                                              |=================================                                     |  47%  |                                                                              |===================================                                   |  50%  |                                                                              |=====================================                                 |  53%  |                                                                              |=======================================                               |  56%  |                                                                              |==========================================                            |  59%  |                                                                              |============================================                          |  62%  |                                                                              |==============================================                        |  66%  |                                                                              |================================================                      |  69%  |                                                                              |==================================================                    |  72%  |                                                                              |====================================================                  |  75%  |                                                                              |=======================================================               |  78%  |                                                                              |=========================================================             |  81%  |                                                                              |===========================================================           |  84%  |                                                                              |=============================================================         |  88%  |                                                                              |===============================================================       |  91%  |                                                                              |==================================================================    |  94%  |                                                                              |====================================================================  |  97%  |                                                                              |======================================================================| 100%
+[1] "----- Variable: StemBiom"
+[1] "----- Running ensemble analysis for site:  Bondville (US-Bo1)"
